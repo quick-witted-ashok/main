@@ -1,0 +1,9 @@
+### Add a New User
+POST http://localhost:5000/add-user
+Content-Type: application/json
+
+{
+  "username": "testuser",
+  "email": "testuser@example.com",
+  "password": "password123"
+}
